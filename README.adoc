@@ -1,0 +1,5 @@
+= Fizz Bugged
+
+A broken https://en.wikipedia.org/wiki/Fizz_buzz[Fizz Buzz] implementation in https://clojure.org/[Clojure] that I fix over in my blog post, https://clojure.org/[conversational software development].
+
+Use `make repl` to start an nREPL + CIDER server, then open `src/fizzbugged/core.clj` to begin your conversation with the program.
