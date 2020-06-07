@@ -2,4 +2,5 @@
 
 A broken https://en.wikipedia.org/wiki/Fizz_buzz[Fizz Buzz] implementation in https://clojure.org/[Clojure] that I fix over in my blog post, https://oli.me.uk/conversational-software-development/[conversational software development].
 
-Use `make repl` to start an nREPL + CIDER server, then open `src/fizzbugged/core.clj` to begin your conversation with the program.
+ * `make repl` starts an nREPL + CIDER server, open `src/fizzbugged/main.clj` with https://github.com/Olical/conjure[Conjure] installed to begin your conversation with the program.
+ * `make run` executes the program and quits.

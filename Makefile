@@ -1,4 +1,7 @@
 .PHONY: repl
 
 repl:
-	clj -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]'
+	clojure -m nrepl.cmdline --middleware '["cider.nrepl/cider-middleware"]'
+
+run:
+	clojure -m fizzbugged.main
